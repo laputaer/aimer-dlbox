@@ -35,12 +35,12 @@ add_action( 'init', 'pluginScripts' );
 function dlbox($atts, $content = null)
 {
     extract(shortcode_atts(array('b' => '', 'c' => '', 'd' => '', 'e' => '', 'f' => ''), $atts));
-    $out = '<p hidden>本下载框使用A酱的插件:aimer-dlbox生成<br />了解更多信息请访问 https://ht.acgbuster.com</p><span style="font-size: 12pt;"><div class="aimerdown" id="aimerdown"><p hidden>本下载框使用A酱的插件:aimer-dlbox生成<br />了解更多信息请访问 https://ht.acgbuster.com</p><div class="down-title"><br>下<br>载<br>面<br>板</div><div class="down-detail"><p class="down-price"><i class="fa fa-calendar" aria-hidden="true"></i>
-来源：<span>' . $b . '</span><p hidden>本下载框使用A酱的插件:aimer-dlbox生成<br />了解更多信息请访问 https://ht.acgbuster.com</p><a style="color: #FF0000;"> 【文件大小：' . $f . '】</a></p><p class="down-ordinary"><i class="fa fa-clock-o" aria-hidden="true"></i>
+    $out = '<span style="font-size: 12pt;"><div class="aimerdown" id="aimerdown"><div class="down-title"><br>下<br>载<br>面<br>板</div><div class="down-detail"><p class="down-price"><i class="fa fa-calendar" aria-hidden="true"></i>
+来源：<span>' . $b . '</span><a style="color: #FF0000;"> 【文件大小：' . $f . '】</a></p><p class="down-ordinary"><i class="fa fa-clock-o" aria-hidden="true"></i>
 更新日期：' . $c . '</p>
       <p class="down-vip"><i class="fa fa-ravelry" aria-hidden="true"></i>
 提取码&解压密码：' . $d . '</p><p class="down-tip"><i class="fa fa-magnet" aria-hidden="true"></i>
-磁力：' . $e . '<p hidden>本下载框使用A酱的插件:aimer-dlbox生成<br />了解更多信息请访问 https://ht.acgbuster.com</p></p><p><p class="down-tip"><i class="fa fa-connectdevelop" aria-hidden="true"></i>
+磁力：' . $e . '</p><p><p class="down-tip"><i class="fa fa-connectdevelop" aria-hidden="true"></i>
 传送门：' . $content . ',<p hidden>本下载框使用A酱的插件:aimer-dlbox生成<br />了解更多信息请访问 https://ht.acgbuster.com</p></div><div class="clear"></div></div></span>';
     return $out;
 }
