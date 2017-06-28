@@ -24,15 +24,14 @@ function aimer_my_register_mce_button($buttons)
     array_push($buttons, 'specs_code_plugin');
     return $buttons;
 }
-function pluginScripts() {  
-    //wp_register_script( 'plugin', plugins_url( 'jquery.js' , __FILE__ ), array('jquery'), '' );  
+function plugincss() {       
     wp_register_style( 'plugin', plugins_url( 'css/dlbox.css' , __FILE__ ) );  
-    if ( !is_admin() ) { /** Load Scripts and Style on Website Only */          
+    if ( !is_admin() ) {           
         wp_enqueue_style( 'plugin' );  
     }  
 }  
-add_action( 'init', 'pluginScripts' );
-function dlbox($atts, $content = null)
+add_action( 'init', 'plugincss' );
+function aimer_dlbox($atts, $content = null)
 {
     extract(shortcode_atts(array('b' => '', 'c' => '', 'd' => '', 'e' => '', 'f' => ''), $atts));
     $out = '<span style="font-size: 12pt;"><div class="aimerdown" id="aimerdown"><div class="down-title"><br>下<br>载<br>面<br>板</div><div class="down-detail"><p class="down-price"><i class="fa fa-calendar" aria-hidden="true"></i>
@@ -44,5 +43,5 @@ function dlbox($atts, $content = null)
 传送门：' . $content . ',<p hidden>本下载框使用A酱的插件:aimer-dlbox生成<br />了解更多信息请访问 https://ht.acgbuster.com</p></div><div class="clear"></div></div></span>';
     return $out;
 }
-add_shortcode('dlbox', 'dlbox');
+add_shortcode('aimer_dlbox', 'aimer_dlbox');
 
