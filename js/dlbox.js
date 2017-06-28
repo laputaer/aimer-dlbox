@@ -270,7 +270,7 @@
 						} else(jg = '&')
 						pw_data = pw_data + jg + pw_array[x];
 					}
-					dl_data = '[dlbox b=\'网络\' c=\'' + getNowFormatDate() + '\' d=\'提取：' + tq_data + ' / 密码：' + pw_data + '\' e=\'' + magnet_data + '\' f=\'' + title_data+'\']' + link_data + '[/dlbox]\n';
+					dl_data = '[aimer_dlbox b=\'网络\' c=\'' + getNowFormatDate() + '\' d=\'提取：' + tq_data + ' / 密码：' + pw_data + '\' e=\'' + magnet_data + '\' f=\'' + title_data+'\']' + link_data + '[/aimer_dlbox]\n';
 					editor.insertContent(dl_data);
 					jQuery(".highlighter-code-box").hide();
 					dl_data = '';
