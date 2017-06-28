@@ -1,0 +1,22 @@
+#facebox .content{width:600px; background:none repeat scroll 0 0 #E0E2E4; color:#333;}
+#facebox .popup{border:6px solid #ff7d00;}
+.downbtn{background: none repeat scroll 0 0 #1BA1E2; border: 0 none; border-radius: 2px; color: #FFFFFF; cursor: pointer; font-family: "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Verdana,Tahoma,sans-serif; font-size: 14px; margin: -4px 20px 0 0; padding: 3px 30px;text-transform:none;text-decoration:none;}
+.downlink a:link{color: #ffffff;}
+.downlink a:visited{color: #ffffff;}
+.downlink a:hover{color: #ffffff;}
+.downlink a:active{color: #ffffff;}
+.downbtn{background: none repeat scroll 0 0 #1BA1E2; border: 0 none; border-radius: 2px; color: #FFFFFF !important; cursor: pointer; font-family: "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Verdana,Tahoma,sans-serif; font-size: 14px; margin: -4px 20px 0 0; padding: 3px 30px;}
+.yanshibtn{background: none repeat scroll 0 0 #d33431; border: 0 none; border-radius: 2px; color: #FFFFFF!important; cursor: pointer; font-family: "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Verdana,Tahoma,sans-serif; font-size: 14px; margin: -4px 20px 0 0; padding: 3px 30px;text-transform:none;text-decoration:none;}
+.downbtn:hover,.yanshibtn:hover{background: none repeat scroll 0 0 #9B59B6; border: 0 none; border-radius: 2px; color: #FFFFFF!important; cursor: pointer; font-family: "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Verdana,Tahoma,sans-serif; font-size: 14px; padding: 3px 30px;}
+.downbtn a:hover,.yanshibtn a:hover{background: none repeat scroll 0 0 #9B59B6; border: 0 none; border-radius: 2px; color: #FFFFFF; cursor: pointer; font-family: "Open Sans","Hiragino Sans GB","Microsoft YaHei","WenQuanYi Micro Hei",Arial,Verdana,Tahoma,sans-serif; font-size: 14px; margin: -4px 20px 0 0; padding: 3px 30px;}
+.aimerforreimudown{margin-bottom: 20px;width: auto;border: 1px solid #CFCFCF;;background: #E7E7E7;;}
+.aimerforreimudown p{margin:3px;padding:3px 15px;border-bottom: 1px solid #f8f8f8;text-indent: 0;}
+.aimerforreimudown p span{padding:0 5px;color: #E14D43;font-weight: bold;font-size: 120%;}
+.aimerforreimudown .down-title{float: left;padding-top: 15px;width:9%;color: #666;text-align: center;font-weight: bold;font-size: 16px;}
+.aimerforreimudown .down-pic{float: left;padding-bottom: 30px;width: 9%;background: url(https://wx3.sinaimg.cn/thumbnail/006EWu1jly1fgcxerndenj30eh0f47bx.jpg) no-repeat;}
+.aimerforreimudown .down-detail{float: right;min-height: 140px;width: 90%;border-left:1px solid #eee;background: #fff;}
+.aimerforreimudown p.down-ordinary{color: #28B78D;}
+.aimerforreimudown p.down-vip{color: #E14D43;}
+.aimerforreimudown p a{margin-left: 10px;font-weight: bold;text-decoration: none;}
+.aimerforreimudown p.down-tip{border-bottom: none;}
+.clear {clear: both;display: block;overflow: hidden;visibility: hidden;width: 0;height: 0;}
