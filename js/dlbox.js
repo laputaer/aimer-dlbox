@@ -76,7 +76,7 @@
 	var boxTemplate = '\
 <div class="mce-reset dl_links" role="application">\
 <div class="mce-window-head">\
-<div class="mce-title">下载面板</div>\
+<div class="mce-title">本下载框由aimer-dlbox插件生成</div>\
 <button type="button" id="codeCancelButton" class="mce-close" aria-hidden="true"><i class="mce-ico mce-i-remove"></i></button>\
 </div>\
 <div class="mce-container-body mce-abs-layout">\
@@ -103,7 +103,6 @@
 				<input type="text" class="mce-textbox  mce-last dl_pw" placeholder="解压密码（可选）">\
 			</div>\
 	</div>\
-              <div class="mce-bottom"><a href="https://ht.acgbuster.com" target="_blank" rel="noopener noreferrer">%u672C%u4E0B%u8F7D%u6846%u539F%u5730%u5740%uFF1A%u9762%u7801%u7684buster%u7EC5%u58EB%u5411</a></div>\         
 		<div id="mce-container mce-panel mce-foot dl_action" style="overflow: hidden;padding: 20px 0 20px 0;">\
 			<div class="mce-container-body mce-abs-layout">\
 			<div class="mce-abs-end"></div>\
@@ -281,4 +280,6 @@
 	});
 
 })();
+
+
 
